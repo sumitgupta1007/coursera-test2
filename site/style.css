@@ -1,0 +1,133 @@
+h1{
+	text-align: center;
+}
+*{
+	box-sizing: border-box;
+}
+#box1{
+	background-color: rgba(147, 143, 118, 1);
+	padding: 10px 10px 10px 10px;
+	border: 2px solid black;
+	width: 400px;
+	height: 140px;
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left:10px; 
+	overflow: auto;	
+}
+#box1 #box11{
+	position:relative;
+	border: 1px solid black;
+	top:-150px;
+	left: 10px;
+	width:10%
+	height:10%;
+	padding: 1px 20px 1px 20px;
+	background-color: rgba(224, 142, 133, 1);
+	font-family: Arial;
+	font-weight: bold;
+	font-size: medium;
+	float: right;
+
+}
+#box2{
+	background-color:rgba(147, 143, 118, 1);
+	padding: 10px 10px 10px 10px;
+	border: 2px solid black;
+	width: 400px;
+	height: 140px;
+	margin-top: 50px;
+	margin-right: 20px;
+	overflow: auto;
+}
+#box2 #box22{
+	position:relative;
+	border: 1px solid black;
+	top:-150px;
+	left: 10px;
+	width:10%
+	height:10%;
+	padding: 1px 30px 1px 30px;
+	background-color: rgba(223, 32, 32, 1);
+	font-family: Arial;
+	font-weight: bold;
+	font-size: medium;
+	float: right;
+
+
+}
+#box3{
+	background-color: rgba(147, 143, 118, 1);
+	padding: 10px 10px 10px 10px;
+	border: 2px solid black;
+	width: 400px;
+	height: 140px;
+	margin-top: 50px;
+	margin-right: 10px;
+	overflow: auto;
+}
+#box3 #box33{
+	position:relative;
+	border: 1px solid black;
+	top:-150px;
+	left: 10px;
+	width:10%
+	height:10%;
+	padding: 1px 25px 1px 25px;
+	background-color: rgba(239, 236, 82, 1);
+	font-family: Arial;
+	font-weight: bold;
+	font-size: medium;
+	float: right;
+
+}
+
+
+#content{
+	font-size: medium;
+	font-family: Arial;
+	font-weight: bold;
+
+}
+
+	@media(min-width:992px){
+		#box1{float: left;
+			width: 30%;
+
+		}
+		#box2{
+			float: left;
+			width: 30%;
+		}
+		#box3{
+			float: left;
+			width: 30%
+		}
+	}
+	@media(min-width:768px) and (max-width: 991px){
+		#box1{float: left;
+			width: 40%;
+
+		}
+		#box2{
+			float: left;
+			width: 40%;
+		}
+		#box3{
+			float: left;
+			margin-left: 10px;
+			width: 82.5%;
+			overflow: auto;
+		}
+
+		#box3 #box33{
+			position:relative;
+	        top:-113.5px;
+	        left:20px;
+	
+	
+
+
+		}
+	}
+	   
